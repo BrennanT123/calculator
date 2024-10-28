@@ -1,0 +1,44 @@
+#container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.selection
+{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+}
+.number
+{
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+#zero
+{
+    width: 400px;
+}
+#output
+{
+    width: 800px;
+    border-radius: 10%;
+}
+.operator
+{
+    background-color: orange;
+    color: white;
+}
+.function{
+    background-color: grey;
+}
+#equals
+{
+    background-color: green;
+}
